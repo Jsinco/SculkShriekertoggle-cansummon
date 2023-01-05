@@ -1,0 +1,13 @@
+name: CanSummonCommand
+version: '${1.0`}'
+main: me.sjonah.cansummoncommand.CanSummonCommand
+api-version: 1.19
+authors: [ Jsincooo ]
+description: An easy command to set Sculk Shriekers 'can_summon' flag to true or false. Look at a Sculk Shrieker then run command.
+commands:
+  wardensummon:
+    description: Set a Sculk Shriekers 'can_summon' tag true or false
+    usage: /<command>
+    aliases:
+      - shriekersummon
+      - cansummon
